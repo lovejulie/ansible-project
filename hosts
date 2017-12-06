@@ -1,0 +1,2 @@
+[webserver]
+10.0.252.142 ansible_ssh_user=eric 
