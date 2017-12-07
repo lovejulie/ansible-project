@@ -1,2 +1,5 @@
 [webserver]
 10.0.252.142 ansible_ssh_user=eric 
+
+[prox]
+10.0.252.157 ansible_ssh_user=eric ansible_become_user=root ansible_become_pass='2wsx#EDC'

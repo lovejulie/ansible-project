@@ -1,0 +1,16 @@
+---
+- hosts : prox
+  become : true
+  become_method: su
+  tasks :
+   - name : create proxmox centos7 CT
+     proxmox:
+      vmid: 100252143
+      node: px157
+      storage: abc
+      api_user: root@pam
+      api_password: 2wsx#EDC
+      api_host: 10.0.252.157
+      password: 2wsx#EDC
+      ostemplate: 'local:vztmpl/centos-7-default_20170504_amd64.tar.xz'
+      state: present
