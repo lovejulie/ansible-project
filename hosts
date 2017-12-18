@@ -1,5 +1,8 @@
-[webserver]
-10.0.252.142 ansible_ssh_user=eric 
+[minerserver]
+10.0.252.141 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
+10.0.252.142 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
+10.0.252.143 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
+10.0.252.144 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
 
 [prox]
 10.0.252.157 ansible_ssh_user=eric ansible_become_user=root ansible_become_pass='2wsx#EDC'
