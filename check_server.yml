@@ -1,0 +1,18 @@
+- name: check Virtualization Type
+  hosts: minerserver
+  tasks:
+    - debug: msg="Virtualization type is {{ ansible_virtualization_type }}"
+
+- name: check O.S
+  hosts: minerserver
+  tasks:
+    - debug: msg="O.S version is {{ ansible_distribution }} {{ ansible_distribution_version }}"
+- name: check memory 
+  hosts: minerserver
+  tasks:
+    - debug: msg="total RAM is {{ ansible_memory_mb.real.total }} KB" 
+    
+- name: check cpu
+  hosts: minerserver
+  tasks:
+    - debug: msg="CPU is {{ ansible_processor_cores }} core"
