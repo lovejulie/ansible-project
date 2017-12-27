@@ -1,4 +1,4 @@
-- hosts: minerserver
+- hosts: server
   tasks:
 
     - name: check hostname
