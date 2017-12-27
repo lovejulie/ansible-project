@@ -1,4 +1,4 @@
-[minerserver]
+[server]
 10.0.252.141 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
 10.0.252.142 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
 10.0.252.143 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass='2wsx#EDC'
